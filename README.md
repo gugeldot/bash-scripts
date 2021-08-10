@@ -1,18 +1,15 @@
 #  ***bash-scripts***
 - **Index**
-	- [Autobinaries.sh](#Autobinaries.sh)
+	- [Autobinaries.sh](#Autobinaries)
 	- [Blighty](#Blighty)
-	- [Bsr](#Bsr)	
-	- [cheatsheet-i3](#cheatsheet-i3)
 	- [dirwatch](#dirwatch)
-	- [rofi_wifi_menu](#rofi_wifi_menu)
 	- [status](#status)
 	- [Toothy-bluetooth-Termial](#Toothy-bluetooth-Termial)
 	- [wiiTurbo](#wiiTurbo)
 	- [xranscreen](#xranscreen)
 
 
-# Autobinaries.sh
+# Autobinaries
 Dependencies:
 ```bash
 yay -S shc
