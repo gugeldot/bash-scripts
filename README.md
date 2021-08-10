@@ -2,6 +2,7 @@
 - **Index**
 	- [Autobinaries.sh](#Autobinaries.sh)
 	- [Blighty](#Blighty)
+		- [a](##dependencies)
 	- [Bsr](#Bsr)	
 	- [cheatsheet-i3](#cheatsheet-i3)
 	- [dirwatch](#dirwatch)
@@ -56,7 +57,7 @@ Used for rutinary compiling and migration of several scripts at once (Those in t
 # Use --just-migrate argument to all move Binaries files to /bin
 ```
 # Blighty
-Dependencies:
+## dependencies
 ```bash
 pacman -S xbacklight
 ```
