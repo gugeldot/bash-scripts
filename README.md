@@ -18,7 +18,9 @@ Dependencies:
 yay -S shc
 ```
 Description:
+
 Used for rutinary compiling and migration of several scripts at once (Those in the same folder as the script is)
+
 --help :
 ```bash 
 #DOCUMENTATION 
@@ -27,6 +29,7 @@ Used for rutinary compiling and migration of several scripts at once (Those in t
 # It automates it with all the files available in the directory executed 
 # BE CAREFULL, BINARIES IN THE BINARY FORLDER WILL BE DELETED EVERY TIME THE SCRIPT IS 
 # EXECUTED TO AVOID REPETITION
+#
 # DISCLAIMER: 
 #	This script is concieved to be executed at this following location
 #	The only compulsory thing is to have a directory called Binaries a level above where 
@@ -39,7 +42,7 @@ Used for rutinary compiling and migration of several scripts at once (Those in t
 # │
 # └── Script Folder --> No matter the name
 #     ├── AutoBinaries.sh --> The script itself has to be placed at the directory 
-#							  of your scripts
+#	  |					  of your scripts
 #     └── YourScripts...
 #
 # MIGRATION OPTION ADDED: 
