@@ -128,7 +128,7 @@ pacman -S xrandr
 ```
 **Description:**
 
-A script to automate use of xrandr with some preset settings
+A script to automate use of xrandr with some preset settings. Based on [Brodie Robertson's video](https://www.youtube.com/watch?v=wu2NWw2wPaA)
 
 **--help:**
 ```bash'
