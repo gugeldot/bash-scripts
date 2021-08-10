@@ -1,0 +1,11 @@
+#!/bin/bash 
+file="/home/nomade/.config/i3/config"
+figlet i3-chtsht
+for i in $(cat -n ~/.config/i3/config | grep '#~' | cut -f1)
+do
+line=$(( 1+ $i ))
+echo ""
+head -$i $file | tail +$i 		#Header
+head -$line $file | tail +$line		#Command
+done 
+read -p "Press any key to exit: " just_to_stay
