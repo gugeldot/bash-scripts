@@ -4,21 +4,20 @@
 	- [Blighty](#Blighty)
 	- [dirwatch](#dirwatch)
 	- [status](#status)
-	- [Toothy-bluetooth-Termial](#Toothy-bluetooth-Termial)
 	- [wiiTurbo](#wiiTurbo)
 	- [xranscreen](#xranscreen)
 
 
 # Autobinaries
-Dependencies:
+**Dependencies:**
 ```bash
 yay -S shc
 ```
-Description:
+**Description:**
 
 Used for rutinary compiling and migration of several scripts at once (Those in the same folder as the script is)
 
---help :
+**--help:**
 ```bash 
 #DOCUMENTATION 
 # Made by Gugeldot23
@@ -53,15 +52,15 @@ Used for rutinary compiling and migration of several scripts at once (Those in t
 # Use --just-migrate argument to all move Binaries files to /bin
 ```
 # Blighty
-Dependencies: 
+**Dependencies:**
 ```bash
 pacman -S xbacklight
 ```
-Description:
+**Description:**
 
 A simple and somehow redundant simple interface of [xbacklight](https://wiki.archlinux.org/title/Backlight#xbacklight)
 
---help:
+**--help:**
 
 ```bash'
 __________.__  .__       .__     __          
@@ -80,33 +79,58 @@ blighty  [ ? (See value)] [-s | --set] VALUE ] | [ - VALUE ] | [ + VALUE ]
 ```
 
 # dirwatch
-Dependencies:
+**Dependencies:**
 ```bash
 pacman -S figlet
 ```
-Description: Lists and updates frequently a directory
+**Description:** 
+
+Lists and updates frequently a directory
 
 # status
-Dependencies:
+**Dependencies:**
 ```bash
 pacman -S acpi
 ```
-Description:
+**Description:**
 
 Returns in a single string freespace in /dev/sda3 and battery left. Uncommented some code that show it in a more detailed way
 
-# Toothy-bluetooth-Termial
 # wiiTurbo
+**Dependencies:**
+```bash
+pacman -S nmcli
+```
+*Also uses Network Manager*
 
+**Description**
+
+An easy way of controling nmcli when you don't know other people have made nmcli interfaces like [nmcli-rofi](https://github.com/sineto/nmcli-rofi)
+
+**--help**
+```bash'
+ __      __ ______________           ___           
+/  \    /  \__|__\__   ___/_ ________\_ |__   ____  
+\   \/\/   /  |  | |   | |  |  \_  __ \ __ \ /  _ \ 
+ \        /|  |  | |   | |  |  /|  | \/ \_\ (  <_> )
+  \__/\  / |__|__| |___| |____/ |__|  |___  /\____/ 
+       \/                                  \/        
+-----------------------------------------------------
+
+Usage: 
+
+wiiTurbo [ -scan | -status | -on | -off | -restart ] [-connect | -disconnect SSID [PASSWD]]
+```
 # xranscreen
-Dependencies:
+**Dependencies:**
 ```bash
 pacman -S xrandr
 ```
-Description:
+**Description:**
 
 A script to automate use of xrandr with some preset settings
---help: 
+
+**--help:**
 ```bash'
 ____  ___                      _________                                   
 \   \/  /___________    ____  /   _____/ ___________   ____   ____   ____  
