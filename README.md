@@ -55,7 +55,32 @@ Used for rutinary compiling and migration of several scripts at once (Those in t
 # MIGRATiON OPTION WITHOUT COMPILING: 
 # Use --just-migrate argument to all move Binaries files to /bin
 ```
-# Blighty 
+# Blighty
+Dependencies:
+```bash
+pacman -S xbacklight
+```
+Description:
+
+A simple and somehow redundant simple interface of [xbacklight](https://wiki.archlinux.org/title/Backlight#xbacklight)
+--help:
+
+```bash'
+__________.__  .__       .__     __          
+\______   \  | |__| ____ |  |___/  |_ ___.__.
+ |    |  _/  | |  |/ ___\|  |  \   __<   |  |
+ |    |   \  |_|  / /_/  >   Y  \  |  \___  |
+ |______  /____/__\___  /|___|  /__|  / ____|
+        \/       /_____/      \/      \/     
+------
+
+Usage: 
+
+blighty  [ ? (See value)] [-s | --set] VALUE ] | [ - VALUE ] | [ + VALUE ] 
+
+------'
+```
+
 # Bsr
 # cheatsheet-i3
 # dirwatch
