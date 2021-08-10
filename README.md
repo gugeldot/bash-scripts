@@ -82,11 +82,46 @@ blighty  [ ? (See value)] [-s | --set] VALUE ] | [ - VALUE ] | [ + VALUE ]
 ------'
 ```
 
-# Bsr
-# cheatsheet-i3
 # dirwatch
-# rofi_wifi_menu
+Dependencies:
+```bash
+pacman -S figlet
+```
+Description: Lists and updates frequently a directory
+
 # status
+Dependencies:
+```bash
+pacman -S acpi
+```
+Description:
+
+Returns in a single string freespace in /dev/sda3 and battery left. Uncommented some code that show it in a more detailed way
+
 # Toothy-bluetooth-Termial
 # wiiTurbo
+
 # xranscreen
+Dependencies:
+```bash
+pacman -S xrandr
+```
+Description:
+
+A script to automate use of xrandr with some preset settings
+--help: 
+```bash'
+____  ___                      _________                                   
+\   \/  /___________    ____  /   _____/ ___________   ____   ____   ____  
+ \     /\_  __ \__  \  /    \ \_____  \_/ ___\_  __ \_/ __ \_/ __ \ /    \ 
+ /     \ |  | \// __ \|   |  \/        \  \___|  | \/\  ___/\  ___/|   |  \
+/___/\  \|__|  (____  /___|  /_______  /\___  >__|    \___  >\___  >___|  /
+      \_/           \/     \/        \/     \/            \/     \/     \/ 
+
+
+Usage: xranscreen [ off  | add  | duplicate ]
+
+Manipulate the script for manipulate settings 
+
+Thanks for using it!
+```
