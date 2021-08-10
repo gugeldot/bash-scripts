@@ -2,7 +2,6 @@
 - **Index**
 	- [Autobinaries.sh](#Autobinaries.sh)
 	- [Blighty](#Blighty)
-		- [a](##dependencies)
 	- [Bsr](#Bsr)	
 	- [cheatsheet-i3](#cheatsheet-i3)
 	- [dirwatch](#dirwatch)
@@ -57,13 +56,14 @@ Used for rutinary compiling and migration of several scripts at once (Those in t
 # Use --just-migrate argument to all move Binaries files to /bin
 ```
 # Blighty
-## dependencies
+Dependencies: 
 ```bash
 pacman -S xbacklight
 ```
 Description:
 
 A simple and somehow redundant simple interface of [xbacklight](https://wiki.archlinux.org/title/Backlight#xbacklight)
+
 --help:
 
 ```bash'
